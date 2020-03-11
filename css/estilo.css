@@ -1,0 +1,205 @@
+
+@import url("../font/Raleway/Raleway-Light.ttf");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  
+    /* border: 1px solid white ; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* width: 100px; */
+    text-align: center;
+
+
+}
+
+h1 {
+    display: inline-block;
+    /* border: 1px solid white ; */
+    width: 15%;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+#menu {
+    width: 55%;
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    /* border: 1px solid white;  */
+}
+
+#cabeçalho {
+
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: grey;
+    color: white;
+   
+  
+
+}
+
+p {
+    width: 150px;
+    height: 150px;
+    /* background-color: cyan; */
+    color: black;
+    display: inline-block;
+    /* border: 5px brown dashed; */
+    /* box-sizing: border-box; */
+}
+
+#corpo-documento{
+    /* background-color: cyan; */
+    width: 80%;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+#conteudo p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+
+#conteudo h2{
+    padding-left: 20px;
+    padding-right: 20px;;
+    color: black;
+    margin-top: 10px;
+}
+#conteudo{
+    display: inline-block;
+    margin-right: -4px;
+    background-color: white;
+    width: 65%;
+    vertical-align: top;
+   
+   
+
+}
+#barra-lateral{
+    display: inline-block;
+    margin-left: -4px; 
+    width: 27%;
+    height: 100px;
+    color:black;
+    vertical-align: top;
+    padding-bottom: 50px;
+    margin-left: 3px;
+    
+    
+
+}
+
+#lapis{
+    width: 100%;
+}
+#titulo1{
+    width: 100%;
+    height: 30px;
+    
+}
+#paragrafo1{
+    width: 100%;
+    height: 30px;
+    
+}
+#paragrafo2{
+    width: 100%;
+    height: 150px;
+   
+}
+
+body{
+    background-color: #efefef;
+    font-family: Raleway-Light;
+    ;
+    font-weight: 100;
+    color: #858585;
+
+}
+
+.box-side{
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+   }
+
+.box-side h3{
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-transform: uppercase; /* fonte mauscula */
+  font-weight: 200; /* peso da fonte */
+  
+}
+
+.box-side input{
+  height: 30px;
+  width: 50%;
+  margin-left: 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+.box-side button{
+height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  border-bottom: 1px solid #efefef;
+  background-color: #727272;
+  color: white;
+
+}
+
+#postAnteriores h3{
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+  border-top: 20px solid #efefef;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.box-side ul li{
+ /* border: 1px solid red; */
+ margin-left: 30px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+}
+.box-side p{
+/* border: 1px solid red; */
+padding-left: 10px;
+padding-right: 10px;
+line-height: 20px;
+width: 100%;
+height: 20%;
+text-align: center;
+}
+.box-side #email-novidade{
+
+  width: 70%;
+  margin-left: 0;
+  margin-top: 20px;
+ 
+}
